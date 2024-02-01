@@ -1,1 +1,1 @@
-New public repository
+My new public repository.
