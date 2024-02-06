@@ -1,3 +1,8 @@
+language: ruby
+
+services:
+  - redis-server
+
 os: linux
 rvm: 2.6.3
 jobs:
