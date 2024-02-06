@@ -1,12 +1,12 @@
 language: ruby
-
 services:
-  - redis-server
-
+- redis-server
 os: linux
 rvm: 2.6.3
 jobs:
   include:
-    - stage: "sleep 109"
-      script: sleep 10
-      
+  - stage: sleep 109
+    script: sleep 10
+env:
+  global:
+    secure: rBkJtYuS+mJJYUgIjpp+DlU0EjhzlhfGmmQ2gcJrMF3dof/M26SpN0xivbwAcH1+/D2qeuREVYH7Ci3Ab5XhJP5v+lhtIun5P20c4bWwIseAu6NjijJZQOuPbVmvFSow4LkK9MVCVcAy5hedxMelrhajJIxYEo4omfvgRM0Fm0gJw2uR6wkHPFNp7InoVSWGRin4KygwgF+CuVgBIAmJQuW8RPiWCPKCIZ39JcK0jjlhbf+RMJYZ4Qzgk6SEUIxCVyRMofYcvBlZyITeS9bpY9RG3032t3krsiUGgDH8v42D4bEfkeKREVTRX8HdI6Ib6SHtbt1LS5cKj6EXH/ZJ390BBXOCYvgOEUSIJvllgEL6FaRyxn2VtnjGx7uTk32m2bV+7/AVavbayawfI5U4Pa6jkKoKm9WhdJTCKcRPgF3APIYkhzq3oA33aD5tpgShxfitYJqrtCevHbCXwdfrPywqu7XJLIwScWx/dIYH9T+1iu8O9zaEojanJ7FFzZn1k9C48wnZWAQeiP1bGPdR9dH1p7cjgAZy/ejiYUDIYsWoT9MVuJ998JCEI09Rdm4NgeCDyD6PXSRmWhoor1mTO0y3ot6mWK3uOph8D1iFSQuflIH0i43l8L79QeWtBWSidYgY1F9khN9pY+JeT2+1Qs88Yst7a9RfOKNoAQcz2tA=
